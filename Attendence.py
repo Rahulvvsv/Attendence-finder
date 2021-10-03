@@ -11,8 +11,5 @@ elem1.send_keys('your_password',Keys.RETURN )
 driver.implicitly_wait(3000)
 attendence = driver.find_element_by_class_name("tiles")
 attendence.click()
-# driver.implicitly_wait(3000)
-# value = driver.find_element_by_xpath("/html/body/div/div/div[3]/div[1]/table[3]/tbody/tr[11]/th[8]")
-# driver.implicitly_wait(3000)
-# print(value.text)
+
 
